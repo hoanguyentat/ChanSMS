@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\kevinhoa95\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="G:\Android\AndroidProject\ChanSMS\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-48e54fa5cbe71515fad757b4dc784c70f7697f11.jar" />
+    </item>
+    <item
+        jar="G:\Android\AndroidProject\ChanSMS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="G:\Android\AndroidProject\ChanSMS\app\build\intermediates\pre-dexed\debug\classes-d9f6ed52636fcf56f2f4976a453131cd58bd8e1d.jar" />
+    </item>
+    <item
+        jar="G:\Android\AndroidProject\ChanSMS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="G:\Android\AndroidProject\ChanSMS\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-532b53d85ef59af3db4d3277236ee09bf1bfeccc.jar" />
+    </item>
+    <item
+        jar="G:\Android\AndroidProject\ChanSMS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="G:\Android\AndroidProject\ChanSMS\app\build\intermediates\pre-dexed\debug\classes-48e938359eaa43f1e73449d3f9d63fdbb3186225.jar" />
+    </item>
+
+</items>

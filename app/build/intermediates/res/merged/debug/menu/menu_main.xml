@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Cài đặt"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_huongdan"
+        android:title="@string/action_huongdan"
+        />
+    <item
+        android:id="@+id/action_exits"
+        android:title="Thoát"/>
+</menu>
+<!-- From: file:/E:/Android/AndroidProject/ChanSMS/app/src/main/res/menu/menu_main.xml -->

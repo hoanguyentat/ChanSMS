@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">"Chặn SMS"</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_huongdan">Hướng dẫn</string>
+    <string name="help_bochan"> - Để bỏ chặn một số điện thoại nhấn giữ vào số cần xóa và chọn xóa.\n \n</string>
+    <string name="help_chan"> - Chặn một số điện thoại, hãy nhập số điện thoại cần chặn vào ô rồi nhấn \"Lưu số rác này\"</string>
+    <string name="help_banquyen">Tác giả phần mềm: </string>
+    <string name="help_tacgia">Hola Nguyen</string>
+    <string name="title_activity_help">Hướng dẫn</string>
+</resources>

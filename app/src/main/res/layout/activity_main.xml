@@ -1,0 +1,72 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TableLayout
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#008000"
+                    android:gravity="center_horizontal"
+                    android:text="Quản lý tin nhắn rác"
+                    android:textColor="#FFF"
+                    android:textSize="26sp" />
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nhập vào số: "
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/etPhoneBlock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                        <requestFocus />
+                </TableRow>
+                <TableRow>
+                    <Button
+                        android:layout_span="2"
+                        android:id="@+id/btnLuuSo"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Chặn số rác này"
+                        android:textSize="18sp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_span="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvSmsReceiver"/>
+                </TableRow>
+            </TableLayout>
+            <ListView
+                android:id="@+id/lvDanhSach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>
